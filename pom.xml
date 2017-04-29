@@ -10,7 +10,7 @@
     <version>1.0</version>
 
     <build>
-        <finalname>timeo-casservice</finalname>
+        <finalName>timeo-casservice</finalName>
         <plugins>
             <plugin>
                 <groupId>com.rimerosolutions.maven.plugins</groupId>
@@ -67,7 +67,6 @@
                 </configuration>
             </plugin>
         </plugins>
-        <finalName>cas</finalName>
     </build>
 
     <dependencies>
