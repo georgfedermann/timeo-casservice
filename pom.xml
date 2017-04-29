@@ -10,7 +10,7 @@
     <version>1.0</version>
 
     <build>
-        <finalName>timeo-casservice</finalName>
+        <finalName>cas</finalName>
         <plugins>
             <plugin>
                 <groupId>com.rimerosolutions.maven.plugins</groupId>
@@ -77,6 +77,22 @@
             <type>war</type>
             <scope>runtime</scope>
         </dependency>
+
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-collections4</artifactId>
+            <version>4.1</version>
+        </dependency>
+        <dependency>
+            <groupId>org.jasig.cas</groupId>
+            <artifactId>cas-server-support-jdbc</artifactId>
+            <version>4.2.7</version>
+        </dependency>
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>5.1.18</version>
+        </dependency>
     </dependencies>
 
     <properties>
@@ -95,10 +111,6 @@
         <repository>
             <id>sonatype-snapshots</id>
             <url>https://oss.sonatype.org/content/repositories/snapshots/</url>
-        </repository>
-        <repository>
-            <id>shibboleth-releases</id>
-            <url>https://build.shibboleth.net/nexus/content/repositories/releases</url>
         </repository>
     </repositories>
 </project>
