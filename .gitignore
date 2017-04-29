@@ -1,0 +1,20 @@
+# .gitignore list of the original JASIC / Apereo project
+.classpath
+!/.project
+.project
+.settings
+target/
+.idea/
+.DS_Store
+.idea
+overlays/
+.gradle/
+build/
+bin/
+*.iml
+*.log
+
+# .gitignore list added by the timeo project
+# gitignore configuration files for productive environments
+productiveConfig
+
